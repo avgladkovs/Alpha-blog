@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body {
+		text-align: left;
+		color: #998057;
+    padding: 20px;
+		}
+	h1 {
+		font-family: Consolas;
+		color: #998057;
+		font-size: 150%;
+    padding: 20px;
+		}
+	p {
+		font-family: sans-serif;
+		color: #998057;
+		font-size: 110%;
+    }
+	header {
+		text-align: center;
+		font-size: 140%;
+    background-color: #cebc96;
+    padding: 5px;
+		}
+  address {
+      color: #cebc96;
+      padding: 20px;
+    }
+    hr {
+      color: #6d8dc0;
+    }
+</style>
+
+<title>AVG Page for Ruby on Rails course</title>
+
+<header>
+	<p>Welcome to my study page!</p>
+	<hr>
+</header>
+
+<body>
+	<h1>Sandbox for study</h1>
+<p>This is my training page for my cource "Ruby on Rails"</p>
+<%= image_tag("home_landscape.jpg", width: '800px') %>
+
+</body>
+<footer>
+<hr>
+<address>
+<!--	The page was created by <cite>Aleksey Gladkov</cite><br>
+	For the cource "Ruby on Rails"<br>
+	<em> On the www.udemy.com</em>
+-->
+To see <strong>Details</strong> please visit<br>
+the <%= link_to 'About', about_path %> page!
+</address>
+</footer>
+
+
+</html>
