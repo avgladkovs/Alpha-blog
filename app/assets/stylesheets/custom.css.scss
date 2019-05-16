@@ -17,17 +17,36 @@ $navbar-default-bg: #990033;
 .jumbotron {
   background-image: asset-url('home_landscape.jpg');
   background-size: cover;
-
 }
 
 .jumbotron h1 {
   color: red;
   text-align: center;
-  font-family: verdana;
+  // font-family: verdana;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title{
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration-color: orange;
+
+}
+.article-body{
+  border-top : 1px solid orange;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
 
 footer a:hover{
   color: black;
@@ -36,7 +55,7 @@ footer a:hover{
 footer{
   margin-top: 30px;
   margin-bottom: 30px;
-  border: 1px solid grey;
+  // border: 1px solid grey;
 }
 
 footer ul{
